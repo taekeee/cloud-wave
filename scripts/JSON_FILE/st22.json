@@ -1,0 +1,27 @@
+{
+  "Comment": "CREATE NS record",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "st22.cj-cloud-wave.com.",
+        "Type": "NS",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "ns-1284.awsdns-32.org."
+          },
+          {
+            "Value": "ns-1738.awsdns-25.co.uk."
+          },
+          {
+            "Value": "ns-209.awsdns-26.com."
+          },
+          {
+            "Value": "ns-800.awsdns-36.net."
+          }
+        ]
+      }
+    }
+  ]
+}
